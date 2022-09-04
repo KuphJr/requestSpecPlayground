@@ -6,7 +6,7 @@
     }
   ],
   "arguments": {
-    "coin": "ethereum"
+    "coin": "ethereum",
     "multFactor": "100"
   },
   "secrets": {},
