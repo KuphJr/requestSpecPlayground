@@ -1,0 +1,14 @@
+{
+  "requests": [
+    {
+      "url": "https://api.coingecko.com/api/v3/simple/price?ids=${arguments.coin}&vs_currencies=usd",
+      "headers": {}
+    }
+  ],
+  "arguments": {
+    "coin": "ethereum"
+    "multFactor": "100"
+  },
+  "secrets": {},
+  "execute: "function execute(arguments, decryptedSecrets, responses) { const price = responses.data.data.ethereum.usd * parseInt(arguments.multFactor); return price }"
+}
