@@ -10,5 +10,5 @@
     "multFactor": "100"
   },
   "secrets": {},
-  "execute: "function execute(arguments, decryptedSecrets, responses) { const price = responses.data.data.ethereum.usd * parseInt(arguments.multFactor); return price }"
+  "execute": "function execute(arguments, decryptedSecrets, responses) { const price = responses.data.data.ethereum.usd * parseInt(arguments.multFactor); return price }"
 }
